@@ -8,9 +8,7 @@ import ReportComponent from "@/components/ReportComponent";
 import { toast } from "sonner";
 import ChatComponent from "@/components/chatComponent";
 
-type Props = {};
-
-const HomeComponent = (props: Props) => {
+const HomeComponent = () => {
   const [reportData, setReportData] = useState("");
   const onReportConfirmation = (data: string) => {
     setReportData(data);

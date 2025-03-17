@@ -1,10 +1,9 @@
-import React, { ChangeEvent, useEffect, useState } from "react";
+import React, { ChangeEvent, useState } from "react";
 import { Input } from "./ui/input";
 import { Button } from "./ui/button";
 import { Label } from "./ui/label";
 import { Textarea } from "./ui/textarea";
 import { toast } from "sonner";
-import { log } from "console";
 
 type Props = {
   onReportConfirmation: (data: string) => void;
